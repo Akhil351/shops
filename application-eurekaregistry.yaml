@@ -5,4 +5,4 @@ eureka:
     registry-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:8070/eureka
+      defaultZone: http://localhost:8072/eureka
