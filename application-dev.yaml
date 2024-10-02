@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/shops
+    username: root
+    password: Eshwar@351
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  main:
+    banner-mode: off
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    registry-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka
