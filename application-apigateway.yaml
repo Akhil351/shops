@@ -28,11 +28,4 @@ spring:
             - Path=/api/v2/cartItems/**
 
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    registry-with-eureka: true
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://localhost:8070/eureka
+
